@@ -1,0 +1,104 @@
+Using device: cuda:0
+Starting training...
+Epoch 1/10
+----------
+train batches: 100%|██████████| 328/328 [20:10<00:00,  3.69s/it]
+train Loss: 1.5131 Acc: 0.4748
+val batches: 100%|██████████| 41/41 [00:42<00:00,  1.04s/it]
+val Loss: 1.3325 Acc: 0.5499
+
+Epoch 2/10
+----------
+train batches: 100%|██████████| 328/328 [33:58<00:00,  6.22s/it]
+train Loss: 1.1286 Acc: 0.6102
+val batches: 100%|██████████| 41/41 [01:22<00:00,  2.01s/it]
+val Loss: 1.1577 Acc: 0.6083
+
+Epoch 3/10
+----------
+train batches: 100%|██████████| 328/328 [35:04<00:00,  6.42s/it]
+train Loss: 0.9017 Acc: 0.6886
+val batches: 100%|██████████| 41/41 [01:09<00:00,  1.71s/it]
+val Loss: 1.0707 Acc: 0.6454
+
+Epoch 4/10
+----------
+train batches: 100%|██████████| 328/328 [32:05<00:00,  5.87s/it]
+train Loss: 0.7266 Acc: 0.7506
+val batches: 100%|██████████| 41/41 [01:04<00:00,  1.58s/it]
+val Loss: 1.0171 Acc: 0.6699
+
+Epoch 5/10
+----------
+train batches: 100%|██████████| 328/328 [37:48<00:00,  6.91s/it]
+train Loss: 0.5594 Acc: 0.8104
+val batches: 100%|██████████| 41/41 [01:20<00:00,  1.97s/it]
+val Loss: 1.1704 Acc: 0.6385
+
+Epoch 6/10
+----------
+train batches: 100%|██████████| 328/328 [37:48<00:00,  6.92s/it]
+train Loss: 0.4082 Acc: 0.8651
+val batches: 100%|██████████| 41/41 [01:20<00:00,  1.97s/it]
+val Loss: 0.8632 Acc: 0.7245
+
+Epoch 7/10
+----------
+train batches: 100%|██████████| 328/328 [36:12<00:00,  6.62s/it]
+train Loss: 0.3030 Acc: 0.9007
+val batches: 100%|██████████| 41/41 [01:12<00:00,  1.77s/it]
+val Loss: 1.0335 Acc: 0.6985
+
+Epoch 8/10
+----------
+train batches: 100%|██████████| 328/328 [33:29<00:00,  6.13s/it]
+train Loss: 0.2203 Acc: 0.9287
+val batches: 100%|██████████| 41/41 [01:04<00:00,  1.57s/it]
+val Loss: 0.9167 Acc: 0.7344
+
+Epoch 9/10
+----------
+train batches: 100%|██████████| 328/328 [35:28<00:00,  6.49s/it]
+train Loss: 0.1770 Acc: 0.9422
+val batches: 100%|██████████| 41/41 [01:19<00:00,  1.95s/it]
+val Loss: 0.9495 Acc: 0.7356
+
+Epoch 10/10
+----------
+train batches: 100%|██████████| 328/328 [33:22<00:00,  6.11s/it]
+train Loss: 0.1483 Acc: 0.9525
+val batches: 100%|██████████| 41/41 [01:01<00:00,  1.49s/it]
+val Loss: 1.0044 Acc: 0.7256
+
+Training complete in 347m 8s
+Best val Acc: 0.7356
+
+Evaluating model on test set...
+Testing: 100%|██████████| 41/41 [01:17<00:00,  1.90s/it]
+Test Loss: 0.9785 Acc: 0.7220
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   butterfly       0.84      0.75      0.79       193
+         cat       0.61      0.66      0.63       181
+     chicken       0.78      0.86      0.82       327
+         cow       0.58      0.61      0.59       185
+         dog       0.72      0.67      0.69       484
+    elephant       0.90      0.59      0.71       147
+       horse       0.76      0.62      0.69       248
+       sheep       0.52      0.75      0.61       172
+      spider       0.81      0.86      0.83       464
+    squirrel       0.71      0.66      0.68       218
+
+    accuracy                           0.72      2619
+   macro avg       0.72      0.70      0.70      2619
+weighted avg       0.73      0.72      0.72      2619
+
+Visualizing model predictions...
+
+--- Centralized ML Cloud Simulation Cost ---
+Total training time: 5.79 hours
+Compute cost (@$0.526/hr): $3.04
+Storage cost (0.636 GB @$0.023/GB/month): $0.01
+Total simulation cost: $3.06
